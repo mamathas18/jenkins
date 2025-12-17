@@ -8,7 +8,7 @@ pipeline{
 		}
 		stage("python"){
 			steps{
-				echo "oops,while loop"
+				echo "while loop"
 			}
 		}
 		stage("build"){
